@@ -24,3 +24,17 @@ content3.style.color = 'blue';
 
 container3.appendChild(content3);
 
+const container4 = document.querySelector('#container4');
+
+const div = document.createElement('div');
+container4.appendChild(div);
+
+const content4 = document.createElement('h1');
+content4.classList.add('content');
+content4.textContent = 'I\'m in a div';
+content4.style.borderWidth = '2px';
+content4.style.borderColor = 'black';
+content4.style.backgroundColor = 'pink';
+
+container4.appendChild(content4);
+
