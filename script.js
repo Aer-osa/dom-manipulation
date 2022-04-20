@@ -15,3 +15,12 @@ content2.style.color = 'red';
 
 container2.appendChild(content2);
 
+const container3 = document.querySelector('#container3');
+
+const content3 = document.createElement('h3');
+content3.classList.add('content');
+content3.textContent = 'I\'m a blue h3';
+content3.style.color = 'blue';
+
+container3.appendChild(content3);
+
