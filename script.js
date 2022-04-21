@@ -32,9 +32,15 @@ container4.appendChild(div);
 const content4 = document.createElement('h1');
 content4.classList.add('content');
 content4.textContent = 'I\'m in a div';
-content4.style.borderWidth = '2px';
-content4.style.borderColor = 'black';
-content4.style.backgroundColor = 'pink';
+container4.style.borderWidth = '2px';
+container4.style.borderColor = 'black';
+container4.style.backgroundColor = 'pink';
 
-container4.appendChild(content4);
+div.appendChild(content4);
+
+const content5 = document.createElement('p');
+content5.classList.add('content');
+content5.textContent = 'ME TOO!';
+
+div.appendChild(content5);
 
